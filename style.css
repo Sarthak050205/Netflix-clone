@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+    
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.main {
+    box-sizing: border-box;
+    background-image: url("element/images/backimg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:max(1900px, 100vw);
+    height:100vh;
+    position: relative;
+}
+.main .box {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav, .hero {
+    position: relative;
+    z-index: 10;
+}
+
+nav {
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+nav img {
+    margin-top: 25px;
+    color: red;
+    width: 160px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    margin-top: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    padding-top: 40px;
+    max-width: 950px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 23px;
+    text-align: center;
+}
+
+.hero>:first-child {
+    max-width: 550px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hero>:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero> :nth-child(3) {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.hero-button {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 3px 8px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.lang-btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 30px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    outline: 1px solid rgb(72, 70, 70);
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 48px;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+.email-input {
+    width: 28vw;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.sec-end .email-input {
+    width: 35vw;
+}
+
+.btn-red-sm {
+    font-size: 16px;
+    padding: 4px 16px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+}
+.sepration {
+    width: 100%;
+    height: 8px;
+  
+    background: linear-gradient(149deg, #e80808 , 0%, #fd3f00 96.86%);
+}
+.trending{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+section {
+    
+    background-color: black;
+    padding: 0 5vw ;
+}
+.movies{
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 20px;
+    scrollbar-width:none; 
+    gap: 50px;
+}
+.more{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.reason{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.reason1 div, .reason2 div, .reason3 div,.reason4 div{
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    width: 18rem;
+    height: 16rem;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.reason1 p, .reason2 p, .reason3 p,.reason4 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+.reason1 svg, .reason2 svg, .reason3 svg,.reason4 svg{
+    margin-top: auto;
+   margin-left: auto;
+}
+.faq{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.faq-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faq-item span:hover{
+    background-color:#505050;
+}
+.faq-item span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #505050;
+    background-color: #2d2d2d;
+    padding: 1.5rem;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sec-end{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    color: rgba(183, 179, 179, 0.638);
+    padding: 40px 5vw ;
+    margin-top: 40px;
+    width: 100%;
+}
+.end{
+    margin:40px 0;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.end h4,.end p{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    padding: 5px 0;
+}
+.copyright div{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 20px;
+}
+@media (max-width:1100px) {
+  .flex{
+    flex-direction: column !important;
+  }
+  .reason{
+    gap: 10px;
+    font-size: 14px;
+}
+.more{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+    .reason1 div, .reason2 div, .reason3 div,.reason4 div{
+        width: 90vw;
+        height: auto;
+    }
+    .hero-button input{
+        width: 80vw !important;
+    }   
+    .main nav{
+        max-width: 90vw;
+
+    }
+    .hero span {
+        font-size: 20px !important;
+    }
+    .hero>:first-child {
+        font-size: 32px !important;
+    }
+  .main {
+      min-height: 60vh;
+      height: auto;
+  }
+  .main .box {
+      min-height: 60vh;
+      height: 100%;
+  }
+
+    .box {
+        height: 60vh !important;
+    }
+    .movies{
+        gap: 20px !important;
+        padding: 10px;
+    }
+    .movies img{
+        width: 30vw;
+    }
+section {
+    padding: 0 5vw !important;  
+}
+}
+@media (max-width: 768px) {
+  .faq-item span {
+      font-size: 18px;
+      padding: 1rem;
+  }
+  .btn-red {
+      font-size: 18px;
+      padding: 10px 24px;
+  }
+}
