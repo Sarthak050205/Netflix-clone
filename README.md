@@ -1,2 +1,2 @@
 # Netflix-clone
-Netflix landing page clone using HTML and CSS
+Frontend Netflix UI clone (HTML & CSS) with responsive layout, designed for learning web design.
