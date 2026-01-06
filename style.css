@@ -15,12 +15,12 @@ body {
 }
 
 .main {
-    box-sizing: border-box;
     background-image: url("element/images/backimg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size:max(1900px, 100vw);
     position: relative;
+    min-height:100vh;    
 }
 .main .box {
     inset:0;
@@ -58,7 +58,6 @@ nav button {
 }
 
 .hero {
-    padding-top: 40px;
     max-width: 950px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
@@ -69,7 +68,7 @@ nav button {
     color: white;
     position: relative;
     gap: 20px;
-    padding: 0 23px;
+    padding: 40 23px;
     text-align: center;
 }
 
@@ -338,6 +337,7 @@ section {
     text-align: center;
   }
 }
+
 
 
 
