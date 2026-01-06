@@ -23,11 +23,9 @@ body {
     position: relative;
 }
 .main .box {
-    width: 100%;
     inset:0;
     opacity: 0.8;
     position: absolute;
-    top: 0;
     background-color: black;
 }
 nav, .hero {
@@ -64,7 +62,6 @@ nav button {
     max-width: 950px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    height: calc(100% - 62px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,14 +299,9 @@ footer{
         font-size: 32px !important;
     }
   .main {
-      min-height: 60vh;
       height: auto;
   }
-  .main .box {
-      min-height: 60vh;
-      height: 100%;
-  }
-    .movies{
+ .movies{
         gap: 20px !important;
         padding: 10px;
     }
@@ -331,7 +323,8 @@ section {
   }
   nav {
     flex-direction: column;
-    gap: 20px 10px;
+    gap: 20px ;
+    height:auto;
   }
 
   .hero > span:first-child {
@@ -345,6 +338,7 @@ section {
     text-align: center;
   }
 }
+
 
 
 
