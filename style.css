@@ -338,7 +338,7 @@ section {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px 10px;
   }
 
   .hero > span:first-child {
@@ -352,5 +352,6 @@ section {
     text-align: center;
   }
 }
+
 
 
