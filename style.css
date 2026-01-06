@@ -58,17 +58,18 @@ nav button {
 }
 
 .hero {
+    padding: 120px 23px 60px ;
     max-width: 950px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     flex-direction: column;
     color: white;
     position: relative;
     gap: 20px;
-    padding: 40px 23px;
+    padding: 40 23px;
     text-align: center;
 }
 
@@ -146,7 +147,6 @@ nav button {
 .sepration {
     width: 100%;
     height: 8px;
-  
     background: linear-gradient(149deg, #e80808 , 0%, #fd3f00 96.86%);
 }
 .trending{
@@ -333,10 +333,11 @@ section {
     font-size: 16px;
     text-align: center;
   }
+  .hero {
+    padding: 80px 16px 40px;
+  }
 }
-body{
-    border: 10px solid red;
-}
+
 
 
 
