@@ -323,7 +323,7 @@ section {
   }
   nav {
     flex-direction: column;
-    gap: 20px ;
+    padding: 10px;
     height:auto;
   }
 
@@ -338,6 +338,7 @@ section {
     text-align: center;
   }
 }
+
 
 
 
