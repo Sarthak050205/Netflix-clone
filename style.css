@@ -68,7 +68,7 @@ nav button {
     color: white;
     position: relative;
     gap: 20px;
-    padding: 40 23px;
+    padding: 40px 23px;
     text-align: center;
 }
 
@@ -297,9 +297,6 @@ footer{
     .hero>:first-child {
         font-size: 32px !important;
     }
-  .main {
-      height: auto;
-  }
  .movies{
         gap: 20px !important;
         padding: 10px;
