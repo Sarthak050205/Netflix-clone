@@ -334,8 +334,6 @@ section {
       font-size: 18px;
       padding: 10px 24px;
   }
-}
-@media (max-width: 768px) {
   nav {
     flex-direction: column;
     gap: 20px 10px;
@@ -352,6 +350,7 @@ section {
     text-align: center;
   }
 }
+
 
 
 
