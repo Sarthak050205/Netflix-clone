@@ -334,7 +334,9 @@ section {
     text-align: center;
   }
 }
-
+body{
+    border: 10px solid red;
+}
 
 
 
